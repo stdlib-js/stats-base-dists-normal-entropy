@@ -67,7 +67,7 @@ h\left( X \right) = \tfrac{1}{2}\ln(2\pi \,e\,\sigma ^{2})
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@v0.1.0-esm/index.mjs';
 ```
 
 #### entropy( mu, sigma )
@@ -129,7 +129,7 @@ y = entropy( 0.0, -1.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@v0.1.0-esm/index.mjs';
 
 var sigma;
 var mu;
