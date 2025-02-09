@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-03)
+## Unreleased (2025-02-09)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`d199580`](https://github.com/stdlib-js/stdlib/commit/d19958025c3494ec94440c4d4d66e580d145e71e) - **test:** correcly pass options for native tests _(by Philipp Burckhardt)_
 -   [`095586c`](https://github.com/stdlib-js/stdlib/commit/095586cf396939fe7379ea9cee817bc0d77e2fea) - **style:** fix indentation _(by Philipp Burckhardt)_
 -   [`bc9651b`](https://github.com/stdlib-js/stdlib/commit/bc9651b025889ce21c96672d2ab19064333d5782) - **feat:** add C implementation for `stats/base/dists/normal/entropy` [(#3930)](https://github.com/stdlib-js/stdlib/pull/3930) _(by Manvith M, stdlib-bot)_
