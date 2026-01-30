@@ -67,7 +67,7 @@ h\left( X \right) = \tfrac{1}{2}\ln(2\pi \,e\,\sigma ^{2})
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@v0.3.0-esm/index.mjs';
 ```
 
 #### entropy( mu, sigma )
@@ -130,7 +130,7 @@ y = entropy( 0.0, -1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
