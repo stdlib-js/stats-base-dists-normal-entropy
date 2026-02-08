@@ -67,7 +67,7 @@ h\left( X \right) = \tfrac{1}{2}\ln(2\pi \,e\,\sigma ^{2})
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@v0.3.1-deno/mod.js';
 ```
 
 #### entropy( mu, sigma )
@@ -125,7 +125,7 @@ y = entropy( 0.0, -1.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-entropy@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
